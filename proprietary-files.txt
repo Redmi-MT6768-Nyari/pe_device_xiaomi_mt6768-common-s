@@ -887,7 +887,9 @@ system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
--priv-app/ImsService/ImsService.apk
+
+# Patched IMS-System - from merlin-user 12 SP1A.210812.016 V13.0.6.0.SJOMIXM release-keys
+-priv-app/ImsService/ImsService.apk|6e1c6e013bae4f7a004ef76c7408aca396e29680
 
 # Power
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
